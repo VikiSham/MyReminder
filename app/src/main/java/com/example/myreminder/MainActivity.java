@@ -100,10 +100,10 @@ public class MainActivity extends AppCompatActivity {
 
     private void initComponents() {
         context=this;
-        bDate= (Button) findViewById(R.id.bDate);
-        bTime= (Button) findViewById(R.id.bTime);
-        bAlarm= (Button) findViewById(R.id.bAlarm);
-        tvInfo= (TextView) findViewById(R.id.tvInfo);
+        bDate= findViewById(R.id.bDate);
+        bTime= findViewById(R.id.bTime);
+        bAlarm= findViewById(R.id.bAlarm);
+        tvInfo= findViewById(R.id.tvInfo);
         calendar=Calendar.getInstance();
         nowYear=calendar.get(Calendar.YEAR);
         nowMonth=calendar.get(Calendar.MONTH);
